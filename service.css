@@ -1,0 +1,39 @@
+*
+.main-nav
+{
+	float: right;
+	list-style:none;
+	margin-top: 30px;
+}
+
+.main-nav li
+{
+	display: inline-block;
+}
+
+.main-nav li a
+{
+	color: purple;
+	text-decoration:none;
+	padding:5px 20px;
+	font-family: "Roborto", sans-serif;
+	font-size:15px;
+}
+
+.main-nav li.active a
+{
+	border: 1px solid black;
+	
+}
+
+.main-nav li a:hover
+{
+	border:1px solid black;
+	color:black;
+}
+
+body
+{
+  font-family:monospace;
+
+}
